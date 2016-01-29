@@ -2,37 +2,31 @@ document.getElementById('playSong').addEventListener("click", function(){
 	jukeBox.play();
 });
 
-// function playSong(){
-// 	document.getElementById('song1').play();	
-// };
+document.getElementById('pauseSong').addEventListener("click", function(){
+	jukeBox.pause();
+});
 
-// function pauseSong(){
-// 	document.getElementById('song1').pause();
-// }
-
-
-// function jukeBox(){
-// 	this.songs = [];
-// 	this.play = function(){
-
-
-// 	}
-// 	this.chooseSong = function(songNum){
-
-// 	}
-
-// };
+document.getElementById('stopSong').addEventListener("click", function(){
+	jukeBox.stop();
+});
 
 var jukeBox = {
-	songs: ["song1", "song2"],
+	songs: ["song1", "song2", "song3"],
 	play: function(){
 		document.getElementById(this.songs[0]).play();
+	},
+
+	pause: function(){
+		document.getElementById(this.songs[0]).pause();
+	},
+
+	stop: function(){
+		document.getElementById(this.songs[0]).stop();
 	}
+
 };
 
 // JukeBox.loadSong(1);
-// JukeBox.play();
-// JukeBox.pause();
 // JukeBox.stop();
 
 

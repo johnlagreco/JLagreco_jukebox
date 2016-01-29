@@ -1,0 +1,19 @@
+body{
+	background-image: url("rockinhomer.jpg");
+	background-size: cover;
+}
+
+
+#jbox{
+	margin: 0 auto;
+	height: 300px;
+	width: 250px;
+	border: solid 5px black;
+	margin-right: 136px;
+    margin-top: 80px;
+
+}
+
+#butt{
+	text-align: center;
+}
