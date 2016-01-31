@@ -16,28 +16,28 @@ document.getElementById('nextSong').addEventListener("click", function(){
 
 var jukeBox = {
 	currentSong: 0,
-	songs: ["song1", "song2", "song3"],
+	songs: ["song1", "song2", "song3", "song4", "song5"],
 	play: function(){
-		document.getElementById(this.songs[0]).play();
+		document.getElementById(this.songs[this.currentSong]).play();
 	},
 
 	pause: function(){
-		document.getElementById(this.songs[0]).pause();
+		document.getElementById(this.songs[this.currentSong]).pause();
 	},
 
 	stop: function(){
-		document.getElementById(this.songs[0]).pause();
-		document.getElementById(this.songs[0]).currentTime = 0;
+		document.getElementById(this.songs[this.currentSong]).pause();
+		document.getElementById(this.songs[this.currentSong]).currentTime = 0;
 	},
 
 	next: function(){
 		if(this.currentSong == this.songs.length - 1){
 			this.currentSong = 0
-			document.getElementById(this.songs[0]).setAttribute('src', this.songs[0]),
+			document.getElementById(this.songs[0]).setAttribute("songs", this.songs[0]),
 			jukeBox.play();
 		} else{
 			this.currentSong ++
-			document.getElementById(this.songs[0]).setAttribute('src', this.songs[this.currentSong]),
+			document.getElementById(this.songs[0]).setAttribute("songs", this.songs[this.currentSong]),
 			jukeBox.play();
 		}
 	},
