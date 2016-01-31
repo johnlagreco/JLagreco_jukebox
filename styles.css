@@ -6,14 +6,51 @@ body{
 
 #jbox{
 	margin: 0 auto;
-	height: 300px;
+	height: 41px;
 	width: 250px;
 	border: solid 5px black;
 	margin-right: 136px;
     margin-top: 80px;
+}
 
+#jbox-bot{
+	width: 250px;
+	border: solid 5px black;
+	height: 250px;
+	margin: 0 auto;
+	margin-right: 136px;
+    margin-top: 0px;
 }
 
 #butt{
 	text-align: center;
 }
+
+#playSong{
+	border-radius: 40px;
+	width: 75px;
+	height: 40px;
+	font-size: 20px;
+}
+
+#pauseSong{
+	border-radius: 40px;
+	width: 75px;
+	height: 40px;
+	font-size: 20px;
+}
+
+#stopSong{
+	border-radius: 40px;
+	width: 75px;
+	height: 40px;
+	font-size: 20px;
+}
+
+#nextSong{
+	width: 250px;
+	font-size: 20px;
+	border-radius: 40px;
+}
+
+
