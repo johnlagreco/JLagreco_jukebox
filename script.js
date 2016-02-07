@@ -14,6 +14,14 @@ document.getElementById('nextSong').addEventListener("click", function(){
 	jukeBox.next();
 });
 
+document.getElementById('volumeUp').addEventListener("click", function(){
+	jukeBox.volUp();
+});
+
+document.getElementById('volumeDown').addEventListener("click", function(){
+	jukeBox.volDown();
+});
+
 var jukeBox = {
 	currentSong: 0,
 	songs: ["song1", "song2", "song3", "song4", "song5"],
@@ -40,6 +48,14 @@ var jukeBox = {
 			document.getElementById(this.songs[0]).setAttribute("songs", this.songs[this.currentSong]),
 			jukeBox.play();
 		}
+	},
+
+	volUp: function(){
+		document.getElementById(this.songs[this.currentSong]).volume+=0.1;
+	},
+
+	volDown: function(){
+		document.getElementById(this.songs[this.currentSong]).volume-=0.1;
 	},
 
 };
