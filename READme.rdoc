@@ -1,29 +1,6 @@
-OO JavaScript Jukebox
+This is a project where I am using Object Oriented JavaScript. I created a Jukebox audio player that will display a song when the page loads and the user can play that song by clicking a button.
 
-Using any mp3 you can find online, create a simple web page where you can play it. After this step, research which JavaScript functions can pause, play, and stop the Jukebox.
+The user will also be able to stop that song and play the next song which is different than the original loaded song. All of these functions are backed by the object called "Jukebox".
 
-Encapsulate all of this functionality in a JavaScript object so that starting a song is as simple as calling:
-
-`Jukebox.play()`
-
-Grading Criteria
-
-Your JavaScript Jukebox must:
-
-1. Display at least one song on the page when the page loads
-
-2. Give the user the ability to play that song, _without_ using the "built-in" play button. This could be through a different button, through clicking or mousing over an image on the page, or any other device of your choosing.
-
-3. Give the user the ability to stop that song _without_ using the "built-in" stop button. Once again, this could be through a different button, through clicking or mousing over an image on the page, or any other device of your choosing.
-
-3. Give the user the ability to load at least one different song into the Jukebox besides the one that is loaded when the page initially renders
-
-4. The whole Jukebox should be backed by an object called Jukebox with methods to play, stop, and load songs.
-
-
-Bonus features:
-
-1. Playlist of songs, allows the user to queue up the next song
-
-2. Feature to request a random song
+My plans to add to this project will be to show the playlist so that the user can que up a song of their choice. I will also add a feature where a user can add a song of their liking which will be like requesting a song to play.
 
