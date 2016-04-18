@@ -6,70 +6,54 @@ body{
 }
 
 #symbol{
-	margin-left: 34px;
+	margin-left: 3%;
 }
 
 #jbox{
 	margin: 0 auto;
 	height: 41px;
-	width: 250px;
+	width: 21%;
 	border: solid 5px black;
-	margin-right: 136px;
-    margin-top: 80px;
+	margin-right: 11%;
+    margin-top: 10%;
 }
 
 #jbox-bot{
-	width: 250px;
+	width: 21%;
 	border: solid 5px black;
 	height: 250px;
 	margin: 0 auto;
-	margin-right: 136px;
-    margin-top: 0px;
+	margin-right: 11%;
+    text-align: center;
 }
 
 #butt{
 	text-align: center;
 }
 
-#playSong{
-	border-radius: 40px;
-	width: 75px;
+#playSong, #pauseSong, #stopSong{
+	border-radius: 45%;
+	width: 30%;
 	height: 40px;
-	font-size: 20px;
-}
-
-#pauseSong{
-	border-radius: 40px;
-	width: 75px;
-	height: 40px;
-	font-size: 20px;
-}
-
-#stopSong{
-	border-radius: 40px;
-	width: 75px;
-	height: 40px;
-	font-size: 20px;
+	font-size: 122%;
 }
 
 #nextSong{
-	width: 250px;
-	font-size: 20px;
-	border-radius: 40px;
+	width: 76%;
+	font-size: 132%;
+	border-radius: 40%;
 }
 
 #volumeUp{
-	border-radius: 40px;
-	width: 112px;
-	height: 40px;
-	font-size: 20px;
+	border-radius: 40%;
+	width: 44%;
+	height: 15%;
+	font-size: 118%;
 }
 
 #volumeDown{
-	border-radius: 40px;
-	width: 134px;
-	height: 40px;
-	font-size: 20px;
+	border-radius: 38%;
+	width: 52%;
+	height: 15%;
+	font-size: 118%;
 }
-
-
