@@ -36,12 +36,14 @@ body{
 	width: 30%;
 	height: 40px;
 	font-size: 122%;
+	text-align: center;
 }
 
 #nextSong{
 	width: 76%;
 	font-size: 132%;
 	border-radius: 40%;
+	text-align: center;
 }
 
 #volumeUp{
@@ -49,6 +51,7 @@ body{
 	width: 44%;
 	height: 15%;
 	font-size: 118%;
+	text-align: center;
 }
 
 #volumeDown{
@@ -56,6 +59,7 @@ body{
 	width: 52%;
 	height: 15%;
 	font-size: 118%;
+	text-align: center;
 }
 
 @media (max-width: 400px){
@@ -69,18 +73,19 @@ body{
 	#jbox {
 	    margin: 0 auto;
 	    height: 84px;
-	    width: 40%;
+	    width: 38%;
 	    border: solid 2px black;
-	    margin-left: 1%;
-	    margin-top: 95%;
+	    margin-left: 0%;
+	    margin-top: 96%;
+	    text-align: center;
 	}
 
 	#jbox-bot {
-	    width: 40%;
+	    width: 38%;
 	    border: solid 2px black;
 	    height: 10%;
 	    margin: 0 auto;
-	    margin-left: 1%;
+	    margin-left: 0%;
 	    text-align: center;
 	}
 
@@ -90,17 +95,29 @@ body{
 
 	#playSong, #pauseSong, #stopSong{
 		border-radius: 45%;
-		width: 46%;
+		width: 42%;
 		height: 40px;
-		font-size: 122%;
+		font-size: 100%;
+		text-align: center;
+	}
+
+	#nextSong{
+		width: 76%;
+		font-size: 108%;
+		border-radius: 50%;
+		text-align: center;
 	}
 
 	#volumeUp{
-		font-size: 110%;
+		border-radius: 74%;
+		font-size: 92%;
+		text-align: center;
 	}
 
 	#volumeDown{
-		font-size: 114%;
+		border-radius: 50%;
+		font-size: 90%;
+		text-align: center;
 	}
 
 }
