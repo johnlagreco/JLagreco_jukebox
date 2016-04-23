@@ -97,26 +97,26 @@ body{
 		border-radius: 45%;
 		width: 42%;
 		height: 40px;
-		font-size: 100%;
+		font-size: 80%;
 		text-align: center;
 	}
 
 	#nextSong{
 		width: 76%;
-		font-size: 108%;
+		font-size: 96%;
 		border-radius: 50%;
 		text-align: center;
 	}
 
 	#volumeUp{
 		border-radius: 74%;
-		font-size: 92%;
+		font-size: 84%;
 		text-align: center;
 	}
 
 	#volumeDown{
 		border-radius: 50%;
-		font-size: 90%;
+		font-size: 80%;
 		text-align: center;
 	}
 
