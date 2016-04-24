@@ -62,6 +62,45 @@ body{
 	text-align: center;
 }
 
+@media (max-width: 768px){
+	#jbox{
+		height: 25%;
+		width: 24%;
+	}
+
+	#jbox-bot{
+		width: 24%;
+	}
+
+	#playSong, #pauseSong, #stopSong{
+		border-radius: 45%;
+		width: 42%;
+		height: 10%;
+		font-size: 78%;
+		text-align: center;
+	}
+
+	#nextSong{
+		width: 76%;
+		font-size: 96%;
+		border-radius: 50%;
+		text-align: center;
+	}
+
+	#volumeUp{
+		border-radius: 74%;
+		font-size: 84%;
+		text-align: center;
+	}
+
+	#volumeDown{
+		border-radius: 50%;
+		font-size: 80%;
+		text-align: center;
+	}
+
+}
+
 @media (max-width: 400px){
 	body{
 		background-image: url("rockinhomermobile.jpg");
@@ -97,7 +136,7 @@ body{
 		border-radius: 45%;
 		width: 42%;
 		height: 40px;
-		font-size: 80%;
+		font-size: 78%;
 		text-align: center;
 	}
 
