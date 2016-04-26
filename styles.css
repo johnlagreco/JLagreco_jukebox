@@ -62,7 +62,7 @@ body{
 	text-align: center;
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
 	#jbox{
 		height: 25%;
 		width: 24%;
@@ -76,7 +76,7 @@ body{
 		border-radius: 45%;
 		width: 42%;
 		height: 10%;
-		font-size: 78%;
+		font-size: 76%;
 		text-align: center;
 	}
 
@@ -89,13 +89,13 @@ body{
 
 	#volumeUp{
 		border-radius: 74%;
-		font-size: 84%;
+		font-size: 82%;
 		text-align: center;
 	}
 
 	#volumeDown{
 		border-radius: 50%;
-		font-size: 80%;
+		font-size: 78%;
 		text-align: center;
 	}
 
