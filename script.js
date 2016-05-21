@@ -14,6 +14,10 @@ document.getElementById('nextSong').addEventListener("click", function(){
 	jukeBox.next();
 });
 
+document.getElementById('prevSong').addEventListener("click", function(){
+	jukeBox.previous();
+});
+
 document.getElementById('volumeUp').addEventListener("click", function(){
 	jukeBox.volUp();
 });
@@ -49,12 +53,22 @@ var jukeBox = {
 		this.play();	
 	},
 
+	previous: function(){
+		this.stop();
+		this.currentSong--;
+		if(this.currentSong < 0){
+			this.currentSong = this.songs.length -1;
+		}
+		document.getElementById('prevSong').setAttribute("src", this.songs[this.currentSong]);
+		this.play();
+	},
+
 	volUp: function(){
-		document.getElementById(this.songs[this.currentSong]).volume+=0.2;
+		document.getElementById(this.songs[this.currentSong]).volume+=0.1;
 	},
 
 	volDown: function(){
-		document.getElementById(this.songs[this.currentSong]).volume-=0.2;
+		document.getElementById(this.songs[this.currentSong]).volume-=0.1;
 	},
 
 };

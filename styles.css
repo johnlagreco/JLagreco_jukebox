@@ -39,26 +39,11 @@ body{
 	text-align: center;
 }
 
-#nextSong{
-	width: 76%;
-	font-size: 132%;
-	border-radius: 40%;
-	text-align: center;
-}
-
-#volumeUp{
-	border-radius: 40%;
+#prevSong, #nextSong, #volumeUp, #volumeDown{
 	width: 44%;
 	height: 15%;
 	font-size: 118%;
-	text-align: center;
-}
-
-#volumeDown{
-	border-radius: 38%;
-	width: 52%;
-	height: 15%;
-	font-size: 118%;
+	border-radius: 40%;
 	text-align: center;
 }
 
