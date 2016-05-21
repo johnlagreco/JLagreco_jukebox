@@ -33,7 +33,7 @@ body{
 
 #playSong, #pauseSong, #stopSong{
 	border-radius: 45%;
-	width: 30%;
+	width: 32%;
 	height: 40px;
 	font-size: 122%;
 	text-align: center;
@@ -47,42 +47,38 @@ body{
 	text-align: center;
 }
 
-@media (max-width: 767px){
-	#jbox{
-		height: 25%;
+@media (max-width: 1025px){
+	#jbox, #jbox-bot{
+		margin-right: 7%
+	}
+}
+
+@media (max-width: 775px){
+	#jbox, #jbox-bot{
 		width: 24%;
+		margin-left: 4%;
 	}
 
-	#jbox-bot{
-		width: 24%;
+	#jbox{
+		margin-top: 86%;
+		height: 25%;
 	}
 
 	#playSong, #pauseSong, #stopSong{
 		border-radius: 45%;
-		width: 42%;
+		width: 46%;
 		height: 10%;
 		font-size: 76%;
 		text-align: center;
 	}
 
-	#nextSong{
-		width: 76%;
-		font-size: 96%;
+	#nextSong, #prevSong, #volumeUp, #volumeDown{
+		width: 44%;
+		font-size: 90%;
 		border-radius: 50%;
 		text-align: center;
 	}
 
-	#volumeUp{
-		border-radius: 74%;
-		font-size: 82%;
-		text-align: center;
-	}
-
-	#volumeDown{
-		border-radius: 50%;
-		font-size: 78%;
-		text-align: center;
-	}
 
 }
 
@@ -125,25 +121,16 @@ body{
 		text-align: center;
 	}
 
-	#nextSong{
-		width: 76%;
-		font-size: 96%;
+	#volumeDown, #volumeUp, #nextSong, #prevSong{
+		width: 44%;
 		border-radius: 50%;
+		font-size: 78%;
 		text-align: center;
 	}
 
-	#volumeUp{
-		border-radius: 74%;
-		font-size: 84%;
-		text-align: center;
+	#pauseSong{
+		padding-left: 4px;
 	}
-
-	#volumeDown{
-		border-radius: 50%;
-		font-size: 80%;
-		text-align: center;
-	}
-
 }
 
 
