@@ -93,6 +93,38 @@ body{
 	}
 }
 
+@media (max-width: 675px){
+	#symbol{
+		margin: 0 auto;
+		height: 80%;
+		width: 56%;
+	    margin-right: 14%;
+    	margin-left: 12%;
+	}
+
+	#jbox, #jbox-bot{
+		width: 24%;
+		margin-left: 62%;
+	}
+
+	#jbox{
+		margin-top: 10%;
+	}
+
+	#jbox-bot{
+		height: 25%;
+	}
+
+	#playSong, #pauseSong, #stopSong{
+		background-color: #D3D3D3;
+	}
+
+	#nextSong, #prevSong, #volumeUp, #volumeDown{
+		font-size: 78%;
+		background-color: #D3D3D3;
+	}
+}
+
 @media (max-width: 575px){
 	body{
 		background-image: url("rockinhomer.jpg");
@@ -135,7 +167,7 @@ body{
 @media (max-width: 400px){
 	body{
 		background-image: url("rockinhomermobile.jpg");
-		background-size: 100%;
+		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 	}
@@ -146,27 +178,20 @@ body{
 	    width: 38%;
 	    border: solid 2px black;
 	    margin-left: 0%;
-	    margin-top: 96%;
+	    margin-top: 108%;
 	    text-align: center;
 	}
 
 	#jbox-bot {
 	    width: 38%;
 	    border: solid 2px black;
-	/*    height: 10%;*/
 	    margin: 0 auto;
 	    margin-left: 0%;
 	    text-align: center;
 	}
 
-	#symbol{
-		display: none;
-	}
-
 	#playSong, #pauseSong, #stopSong{
 		border-radius: 45%;
-		/*width: 42%;
-		height: 40px;*/
 		font-size: 78%;
 		background-color: #D3D3D3;
 		text-align: center;
@@ -178,6 +203,14 @@ body{
 		font-size: 78%;
 		background-color: #D3D3D3;
 		text-align: center;
+	}
+
+	#symbol{
+		margin: 0 auto;
+		height: 80%;
+		width: 40%;
+	    margin-right: 14%;
+    	margin-left: 12%;
 	}
 
 	#pauseSong{
