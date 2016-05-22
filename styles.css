@@ -94,6 +94,13 @@ body{
 }
 
 @media (max-width: 675px){
+	body{
+		background-image: url("rockinhomer.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+	
 	#symbol{
 		margin: 0 auto;
 		height: 80%;
@@ -178,7 +185,7 @@ body{
 	    width: 38%;
 	    border: solid 2px black;
 	    margin-left: 0%;
-	    margin-top: 108%;
+	    margin-top: 106%;
 	    text-align: center;
 	}
 
