@@ -27,14 +27,10 @@ body{
     text-align: center;
 }
 
-#butt{
-	text-align: center;
-}
-
 #playSong, #pauseSong, #stopSong{
 	border-radius: 45%;
 	width: 32%;
-	height: 40px;
+	height: inherit;
 	font-size: 122%;
 	background-color: #D3D3D3;
 	text-align: center;
@@ -65,31 +61,70 @@ body{
 }
 
 @media (max-width: 775px){
-	#jbox, #jbox-bot{
-		width: 24%;
-		margin-left: 4%;
-	}
-
 	#jbox{
-		margin-top: 86%;
-		height: 25%;
+		margin: 0 auto;
+		margin-top: 88%;
+		margin-left: 4%;
+		width: 28%;
+		height: inherit;
+		text-align: center;
 	}
 
-	#playSong, #pauseSong, #stopSong{
-		border-radius: 45%;
-		width: 46%;
-		height: 10%;
-		font-size: 76%;
+	#jbox-bot{
+		margin: 0 auto;
+		margin-left: 4%;
+		width: 28%;
+		height: inherit;
+	}
+
+	#playSong, #pauseSong, #stopSong, #nextSong, #prevSong, #volumeUp, #volumeDown{
+		width: 44%;
+		font-size: 112%;
+		border-radius: 50%;
 		background-color: #D3D3D3;
 		text-align: center;
 	}
 
-	#nextSong, #prevSong, #volumeUp, #volumeDown{
+	#symbol{
+		margin: 0 auto;
+		height: 36%;
+		width: 56%;
+	    margin-right: 14%;
+    	margin-left: 12%;
+	}
+}
+
+@media (max-width: 750px){
+	#jbox{
+		margin: 0 auto;
+		margin-top: 6%;
+		margin-left: 64%;
+		width: 24%;
+		height: inherit;
+		text-align: center;
+	}
+
+	#jbox-bot{
+		margin: 0 auto;
+		margin-left: 64%;
+		width: 24%;
+		height: inherit;
+	}
+
+	#playSong, #pauseSong, #stopSong, #nextSong, #prevSong, #volumeUp, #volumeDown{
 		width: 44%;
 		font-size: 90%;
 		border-radius: 50%;
 		background-color: #D3D3D3;
 		text-align: center;
+	}
+
+	#symbol{
+		margin: 0 auto;
+		height: 36%;
+		width: 56%;
+	    margin-right: 14%;
+    	margin-left: 12%;
 	}
 }
 
@@ -99,14 +134,6 @@ body{
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-	}
-	
-	#symbol{
-		margin: 0 auto;
-		height: 80%;
-		width: 56%;
-	    margin-right: 14%;
-    	margin-left: 12%;
 	}
 
 	#jbox, #jbox-bot{
@@ -129,6 +156,14 @@ body{
 	#nextSong, #prevSong, #volumeUp, #volumeDown{
 		font-size: 78%;
 		background-color: #D3D3D3;
+	}
+
+	#symbol{
+		margin: 0 auto;
+		height: inherit;
+		width: 56%;
+	    margin-right: 14%;
+    	margin-left: 12%;
 	}
 }
 
@@ -140,25 +175,17 @@ body{
 		background-attachment: fixed;
 	}
 
-	#symbol{
-		margin: 0 auto;
-		height: 80%;
-		width: 40%;
-	    margin-right: 14%;
-    	margin-left: 12%;
-	}
-
-	#jbox, #jbox-bot{
-		width: 24%;
-		margin-left: 62%;
-	}
-
 	#jbox{
+		margin: 0 auto;
+		width: 28%;
 		margin-top: 10%;
+		margin-left: 58%;
 	}
 
 	#jbox-bot{
-		height: 25%;
+		margin: 0 auto;
+		width: 28%;
+		margin-left: 58%;
 	}
 
 	#playSong, #pauseSong, #stopSong{
@@ -169,42 +196,42 @@ body{
 		font-size: 78%;
 		background-color: #D3D3D3;
 	}
+
+	#symbol{
+		margin: 0 auto;
+		height: inherit;
+		width: 40%;
+	    margin-right: 14%;
+    	margin-left: 12%;
+	}
 }
 
-@media (max-width: 400px){
+@media (max-width: 475px){
 	body{
 		background-image: url("rockinhomermobile.jpg");
-		background-size: cover;
-		background-repeat: no-repeat;
 		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 
 	#jbox {
 	    margin: 0 auto;
-	    height: 50px;
 	    width: 38%;
 	    border: solid 2px black;
-	    margin-left: 0%;
+	    margin-left: 2%;
 	    margin-top: 106%;
 	    text-align: center;
 	}
 
 	#jbox-bot {
+		margin: 0 auto;
 	    width: 38%;
 	    border: solid 2px black;
-	    margin: 0 auto;
-	    margin-left: 0%;
+	    margin-left: 2%;
 	    text-align: center;
 	}
 
-	#playSong, #pauseSong, #stopSong{
-		border-radius: 45%;
-		font-size: 78%;
-		background-color: #D3D3D3;
-		text-align: center;
-	}
-
-	#volumeDown, #volumeUp, #nextSong, #prevSong{
+	#playSong, #pauseSong, #stopSong, #volumeDown, #volumeUp, #nextSong, #prevSong{
 		width: 44%;
 		border-radius: 50%;
 		font-size: 78%;
@@ -214,7 +241,49 @@ body{
 
 	#symbol{
 		margin: 0 auto;
-		height: 80%;
+		height: inherit;
+		width: 40%;
+	    margin-right: 14%;
+    	margin-left: 12%;
+	}
+}
+
+@media (max-width: 400px){
+	body{
+		background-image: url("rockinhomermobile.jpg");
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	#jbox {
+	    margin: 0 auto;
+	    width: 38%;
+	    border: solid 2px black;
+	    margin-left: 2%;
+	    margin-top: 106%;
+	    text-align: center;
+	}
+
+	#jbox-bot {
+		margin: 0 auto;
+	    width: 38%;
+	    border: solid 2px black;
+	    margin-left: 2%;
+	    text-align: center;
+	}
+
+	#playSong, #pauseSong, #stopSong, #volumeDown, #volumeUp, #nextSong, #prevSong{
+		width: 44%;
+		border-radius: 50%;
+		font-size: 78%;
+		background-color: #D3D3D3;
+		text-align: center;
+	}
+
+	#symbol{
+		margin: 0 auto;
+		height: inherit;
 		width: 40%;
 	    margin-right: 14%;
     	margin-left: 12%;
@@ -224,6 +293,3 @@ body{
 		padding-left: 4px;
 	}
 }
-
-
-
