@@ -16,6 +16,7 @@ body{
 	border: solid 5px black;
 	margin-right: 11%;
     margin-top: 10%;
+    text-align: center;
 }
 
 #jbox-bot{
@@ -87,8 +88,8 @@ body{
 
 	#symbol{
 		margin: 0 auto;
-		height: 36%;
 		width: 56%;
+		height: 36%;
 	    margin-right: 14%;
     	margin-left: 12%;
 	}
@@ -121,8 +122,8 @@ body{
 
 	#symbol{
 		margin: 0 auto;
-		height: 36%;
 		width: 56%;
+		height: inherit;
 	    margin-right: 14%;
     	margin-left: 12%;
 	}
@@ -160,8 +161,8 @@ body{
 
 	#symbol{
 		margin: 0 auto;
-		height: inherit;
 		width: 56%;
+		height: inherit;
 	    margin-right: 14%;
     	margin-left: 12%;
 	}
@@ -199,8 +200,8 @@ body{
 
 	#symbol{
 		margin: 0 auto;
-		height: inherit;
 		width: 40%;
+		height: inherit;
 	    margin-right: 14%;
     	margin-left: 12%;
 	}
@@ -214,7 +215,7 @@ body{
 		background-size: cover;
 	}
 
-	#jbox {
+	#jbox{
 	    margin: 0 auto;
 	    width: 38%;
 	    border: solid 2px black;
@@ -223,7 +224,7 @@ body{
 	    text-align: center;
 	}
 
-	#jbox-bot {
+	#jbox-bot{
 		margin: 0 auto;
 	    width: 38%;
 	    border: solid 2px black;
@@ -241,8 +242,8 @@ body{
 
 	#symbol{
 		margin: 0 auto;
-		height: inherit;
 		width: 40%;
+		height: inherit;
 	    margin-right: 14%;
     	margin-left: 12%;
 	}
@@ -256,7 +257,7 @@ body{
 		background-size: cover;
 	}
 
-	#jbox {
+	#jbox{
 	    margin: 0 auto;
 	    width: 38%;
 	    border: solid 2px black;
@@ -265,7 +266,7 @@ body{
 	    text-align: center;
 	}
 
-	#jbox-bot {
+	#jbox-bot{
 		margin: 0 auto;
 	    width: 38%;
 	    border: solid 2px black;
@@ -283,13 +284,9 @@ body{
 
 	#symbol{
 		margin: 0 auto;
-		height: inherit;
 		width: 40%;
+		height: inherit;
 	    margin-right: 14%;
     	margin-left: 12%;
-	}
-
-	#pauseSong{
-		padding-left: 4px;
 	}
 }
