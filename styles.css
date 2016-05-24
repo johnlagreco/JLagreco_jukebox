@@ -54,10 +54,12 @@ body{
 	#playSong, #pauseSong, #stopSong{
 		font-size: 98%;
 		background-color: #D3D3D3;
+		text-align: center;
 	}
 
 	#nextSong, #prevSong, #volumeUp, #volumeDown{
 		background-color: #D3D3D3;
+		text-align: center;
 	}
 }
 
@@ -152,11 +154,13 @@ body{
 
 	#playSong, #pauseSong, #stopSong{
 		background-color: #D3D3D3;
+		text-align: center;
 	}
 
 	#nextSong, #prevSong, #volumeUp, #volumeDown{
 		font-size: 78%;
 		background-color: #D3D3D3;
+		text-align: center;
 	}
 
 	#symbol{
@@ -191,11 +195,13 @@ body{
 
 	#playSong, #pauseSong, #stopSong{
 		background-color: #D3D3D3;
+		text-align: center;
 	}
 
 	#nextSong, #prevSong, #volumeUp, #volumeDown{
 		font-size: 78%;
 		background-color: #D3D3D3;
+		text-align: center;
 	}
 
 	#symbol{
@@ -279,6 +285,10 @@ body{
 		border-radius: 50%;
 		font-size: 78%;
 		background-color: #D3D3D3;
+		text-align: center;
+	}
+
+	#pauseSong{
 		text-align: center;
 	}
 
