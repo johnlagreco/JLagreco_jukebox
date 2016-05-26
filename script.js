@@ -27,7 +27,7 @@ document.getElementById('volumeDown').addEventListener("click", function(){
 });
 
 var jukeBox = {	
-	songs: ["song1", "song2", "song3", "song4", "song5", "song6", "song7", "song8"],
+	songs: ["song1", "song2", "song3", "song4", "song5", "song6", "song7", "song8", "song9", "song10"],
 	currentSong: 0,
 
 	play: function(){

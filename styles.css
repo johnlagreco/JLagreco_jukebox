@@ -289,7 +289,7 @@ body{
 	}
 
 	#pauseSong{
-		text-align: center;
+		padding-left: 2px;
 	}
 
 	#symbol{
