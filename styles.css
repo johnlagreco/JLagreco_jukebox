@@ -46,7 +46,7 @@ body{
 	text-align: center;
 }
 
-@media (max-width: 1025px){
+@media (max-width: 1050px){
 	#jbox, #jbox-bot{
 		margin-right: 7%
 	}
@@ -57,13 +57,17 @@ body{
 		text-align: center;
 	}
 
+	#pauseSong{
+		padding-left: 7px;	
+	}
+
 	#nextSong, #prevSong, #volumeUp, #volumeDown{
 		background-color: #D3D3D3;
 		text-align: center;
 	}
 }
 
-@media (max-width: 775px){
+@media (max-width: 785px){
 	#jbox{
 		margin: 0 auto;
 		margin-top: 88%;
@@ -268,7 +272,7 @@ body{
 	    width: 38%;
 	    border: solid 2px black;
 	    margin-left: 2%;
-	    margin-top: 106%;
+	    margin-top: 104%;
 	    text-align: center;
 	}
 
@@ -289,7 +293,7 @@ body{
 	}
 
 	#pauseSong{
-		padding-left: 6px;
+		padding-left: 7px;
 	}
 
 	#symbol{
