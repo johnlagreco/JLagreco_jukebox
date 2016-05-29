@@ -58,7 +58,7 @@ body{
 	}
 
 	#pauseSong{
-		padding-left: 9px;	
+		padding-left: 12px;	
 	}
 
 	#nextSong, #prevSong, #volumeUp, #volumeDown{
@@ -159,6 +159,10 @@ body{
 	#playSong, #pauseSong, #stopSong{
 		background-color: #D3D3D3;
 		text-align: center;
+	}
+
+	#pauseSong{
+		padding-left: 7px;
 	}
 
 	#nextSong, #prevSong, #volumeUp, #volumeDown{
