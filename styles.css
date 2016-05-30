@@ -93,7 +93,7 @@ body{
 	}
 
 	#pauseSong{
-		padding-left: 14px;	
+		padding-left: 15px;	
 	}
 
 	#symbol{
@@ -214,6 +214,10 @@ body{
 		text-align: center;
 	}
 
+	#pauseSong{
+		padding-left: 9px;
+	}
+
 	#nextSong, #prevSong, #volumeUp, #volumeDown{
 		font-size: 78%;
 		background-color: #D3D3D3;
@@ -262,6 +266,10 @@ body{
 		text-align: center;
 	}
 
+	#pauseSong{
+		padding-left: 7px;
+	}
+
 	#symbol{
 		margin: 0 auto;
 		width: 40%;
@@ -284,7 +292,7 @@ body{
 	    width: 38%;
 	    border: solid 2px black;
 	    margin-left: 2%;
-	    margin-top: 104%;
+	    margin-top: 103%;
 	    text-align: center;
 	}
 
