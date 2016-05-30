@@ -92,6 +92,10 @@ body{
 		text-align: center;
 	}
 
+	#pauseSong{
+		padding-left: 14px;	
+	}
+
 	#symbol{
 		margin: 0 auto;
 		width: 56%;
@@ -124,6 +128,10 @@ body{
 		border-radius: 50%;
 		background-color: #D3D3D3;
 		text-align: center;
+	}
+	
+	#pauseSong{
+		padding-left: 12px;	
 	}
 
 	#symbol{
